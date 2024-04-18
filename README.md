@@ -1,1 +1,2 @@
 # SB-wedsite
+This repository stores all the code that I use to create a website for collecting customer shopping behavior data. It consists of seven main functions: login function, display shopping behavior data function, add customer purchase data function, edit customer purchase data function, delete customer purchase data function, search function (by delivery category), and dashboard display function. 
