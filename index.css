@@ -1,0 +1,69 @@
+.navbar {
+    /* background-color: #559ae0; */
+    background: linear-gradient(to right, #5fde63, #2a97eb);
+    /* background: linear-gradient(to right,  #2a97eb, #62e667); */
+
+}
+
+td {
+    line-height: 3rem;
+}
+
+.styled-table {
+    border-collapse: collapse; 
+    /* border-collapse: collapse = ยุบเส้นขอบให้รวมกัน */
+    margin: 0 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: rouded-3;
+}
+
+.styled-table thead tr {
+    padding: 10px 10px;
+    background-color: #0bbef9;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px 10px;
+    text-align: center;
+    /* line-height: 3rem; */
+
+} 
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #0bbef9; /*สีเส้นแบ่งขอบในตาราง*/
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    background-color: #FFFFFF;
+}
+  
+footer {
+    margin-top: auto;
+    background-color: #506478;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+footer p {
+    display: block;
+    margin: 5px 0; /* เพิ่มระยะห่างระหว่างข้อความ */
+}
+
+/* .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #000000;
+} */
